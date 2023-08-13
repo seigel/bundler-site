@@ -60,7 +60,7 @@ Bundler.require(:default)
 For our example Gemfile, this line is exactly equivalent to:
 
 ~~~ruby
-require 'rails'
+require 'sinatra'
 require 'rack-cache'
 require 'nokogiri'
 ~~~
@@ -72,7 +72,7 @@ bundler to use `require 'rack/cache'`, update your Gemfile:
 ~~~ruby
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.0'
+gem 'sinatra', '3.0.0'
 gem 'rack-cache', require: 'rack/cache'
 gem 'nokogiri', '~> 1.4.2'
 ~~~
